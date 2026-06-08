@@ -1,0 +1,134 @@
+# ====================================
+# FRONTEND (Node.js / React / Vite)
+# ====================================
+
+# Dependencies
+code/frontend/node_modules/
+code/frontend/.pnp
+code/frontend/.pnp.js
+
+# Production builds
+code/frontend/dist/
+code/frontend/build/
+code/frontend/.next/
+
+# Environment variables
+code/frontend/.env
+code/frontend/.env.local
+code/frontend/.env.*.local
+
+# Testing
+code/frontend/coverage/
+code/frontend/.nyc_output/
+
+# Logs
+code/frontend/npm-debug.log*
+code/frontend/yarn-debug.log*
+code/frontend/yarn-error.log*
+code/frontend/lerna-debug.log*
+
+# IDE / Editor
+code/frontend/.vscode/
+code/frontend/.idea/
+code/frontend/*.swp
+code/frontend/*.swo
+code/frontend/*~
+code/frontend/.DS_Store
+code/frontend/Thumbs.db
+
+# Package lock files (optional, uncomment if you prefer consistency)
+# code/frontend/package-lock.json
+# code/frontend/yarn.lock
+
+# ====================================
+# BACKEND (.NET / Visual Studio)
+# ====================================
+
+# Build folders
+code/backend/**/bin/
+code/backend/**/obj/
+code/backend/**/x64/
+code/backend/**/x86/
+code/backend/**/Debug/
+code/backend/**/Release/
+
+# Visual Studio specific files
+code/backend/.vs/
+code/backend/.vscode/
+code/backend/*.user
+code/backend/*.DotSettings.user
+code/backend/*.sln.DotSettings.user
+code/backend/*.sln.iml
+
+# NuGet
+code/backend/packages/
+code/backend/.nuget/
+
+# Code Analysis
+code/backend/.sonarqube/
+
+# Test Results
+code/backend/TestResults/
+code/backend/**/*.trx
+
+# Logs
+code/backend/logs/
+code/backend/*.log
+
+# Database files (if using local SQLite or similar)
+code/backend/*.db
+code/backend/*.db-shm
+code/backend/*.db-wal
+code/backend/*.mdf
+code/backend/*.ldf
+
+# IDE / Editor
+code/backend/.idea/
+code/backend/*.swp
+code/backend/*.swo
+code/backend/*~
+
+# ====================================
+# OS FILES
+# ====================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ====================================
+# IDE / EDITOR (Project Root)
+# ====================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# ====================================
+# GENERAL
+# ====================================
+# Local authentication files
+code/backend/appsettings.Development.json
+!code/backend/appsettings.Development.json.example
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Editor temporary files
+.editorconfig.bak
+
+# ====================================
+# GIT
+# ====================================
+.git/
+.gitkeep
+
